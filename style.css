@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdf6f0;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  color: #4a3f35;
+}
+
+#note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+#note-form input,
+#note-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+#note-form textarea {
+  resize: vertical;
+  min-height: 70px;
+}
+
+#note-form button {
+  background: #e8a87c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#note-form button:hover {
+  background: #d99361;
+}
+
+.note-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.note-card h3 {
+  margin: 0 0 8px 0;
+  color: #4a3f35;
+}
+
+.note-card p {
+  margin: 0 0 10px 0;
+  color: #6b6b6b;
+  white-space: pre-wrap;
+}
+
+.note-card button {
+  background: #f28b82;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.note-card button:hover {
+  background: #e06a60;
+}
