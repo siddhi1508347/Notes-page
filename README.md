@@ -76,6 +76,5 @@ Add screenshots of your application here.
 
 ## 👩‍💻 Author
 
-**Siddhi Singh**
-
+**Siddhi Siya Shri**
 If you found this project helpful, consider giving it a ⭐ on GitHub!
