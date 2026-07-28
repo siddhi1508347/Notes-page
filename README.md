@@ -1,4 +1,4 @@
-# 📝 Notes App
+# 📝 Notes page
 
 A simple and responsive **Notes App** built using **Python, HTML, CSS, and JavaScript**. The application allows users to create, edit, and delete notes through an intuitive and user-friendly interface.
 
